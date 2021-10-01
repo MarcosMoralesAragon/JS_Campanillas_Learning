@@ -1,19 +1,15 @@
 class Vehicle {
     static totalKm = 0;
-
     constructor(){
         this.km = 0;
     }
-
     run(kmGived){
         this.km += kmGived;
         Vehicle.totalKm += kmGived;
     }
-
     getKm(){
         return this.km;
     }
-
     static getTotalKm(){
         return Vehicle.totalKm;
     }
