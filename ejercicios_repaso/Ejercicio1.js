@@ -5,7 +5,6 @@ var high = prompt("Introduce un numero: ");
 for( i = 1; i <= high; i++){
 
     var high2 = high;
-    var high3 = high;
     var cadena = "";
 
     while(high2 > 0){
@@ -22,7 +21,6 @@ for( i = 1; i <= high; i++){
         }
     }
     console.log(cadena)
-    --high3; 
 }
 
 function cadenaNumerosImprimir(i) {
